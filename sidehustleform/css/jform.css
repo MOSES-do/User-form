@@ -1,0 +1,248 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-color: #9b59b6;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+
+}
+
+.container{
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px;
+	max-width: 100%;
+}
+
+.header{
+	background-color: #f7f7f7;
+    border-bottom: 1px ;
+    padding:20px 40px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.form{
+    padding: 30px 40px;
+    
+}
+
+.form-control{
+    margin-bottom:10px;
+    padding-bottom: 20px;
+    position:relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding:10px;
+    width: 100%;
+}
+
+/* Success and Error fields colors on input into the fields */
+
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #e74c3c;
+}
+/* End S & C coloring */
+
+.form-control i{
+    position:absolute;
+    top:40px;
+    left:290px;
+    visibility: hidden;
+}
+
+/* Success and Error i-fafa colors on input into the fields */
+
+
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+/* End */
+
+.form-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small{
+color: #e74c3c;
+ visibility: visible;
+}
+
+.form button{
+    background: #8e44ad;
+    border:2px solid #8e44ad;
+    color: #fff;
+    display:block;
+    font-size:16px;
+    padding:10px;
+    margin-top:15px;
+    width: 100%;
+
+}
+
+/* php error  */
+.error{
+    color:#cc0000;
+    padding-top:5px;
+    float:left;
+    width:100%;
+    margin-bottom:5px;
+    font-size: 13px;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #001F61;
+	border: 1px solid #001F61;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #ffffff;
+	color: #001F61;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns:60% 40%; 
+    grid-gap:5px;
+}
+
+
+tr:hover {
+   background-color:grey;
+   border-bottom:2px solid grey;
+}
+
+tr{
+    background: white; 
+}
+
+td{
+    outline:none;
+}
+
+ .mc{
+    padding-left: 40px;
+    color:white;
+    font-weight:bold;
+    font-family: calibri;
+    font-size: large;
+
+}
+
+.text{
+    text-align:center;
+    padding-left:35px;
+    outline:none;
+    padding: 5px;
+    line-height: 40px;
+
+}
+
+.thead-dark .mc{
+    background: rgba(0, 0, 0, 0.884);
+    padding:20px;
+    border:none;
+}
+
+@media only screen and (max-width:960px){
+    .container{
+        width:80%;
+    }
+}
+
+
+/*====Media Queries====*/
+
+@media(max-width:768px){
+    .container{
+        position: absolute;
+        top:40px;
+        left:35%;
+        width:25em;
+        
+	}
+}
+
+@media(max-width:768px){
+    body{
+        height:175vh;
+	}
+}
+
+
+@media(max-width:768px){
+    table{
+        position: absolute;
+        top:100%;
+        left:2%;
+        width:20em;
+        overflow:hidden;
+        
+	}
+}
+
+/* @media(max-width:768px){
+    footer{
+    display:block;
+    position: absolute;
+        top:140%;
+        width:100%;
+        left:0%;
+	}
+} */
+
+
+
+
+
+
+
