@@ -1,2 +1,2 @@
 # User-form
-A form that collects users input and displays it on the same page
+This form collects data from users and stores it temporarily using sessions. If user logs out, session is destroyed. 
