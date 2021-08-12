@@ -1,4 +1,6 @@
 //Remote database connection
+<?php    
+
     $servername = 'remotemysql.com';
     $username = 'PPrQ0WqkGX';
     $password = 'JmImUhgrUc';
@@ -13,3 +15,6 @@
     
     
     }
+
+
+?>
