@@ -1,5 +1,5 @@
 <?php  
 
-    header("location:virtual/jform.php");
+    header("location:sidehustleform/jform.php");
 
 ?>
