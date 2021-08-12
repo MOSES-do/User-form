@@ -1,5 +1,5 @@
 <?php  
 
-    header("location:virtual/customerqueries.php");
+    header("location:virtual/jform.php");
 
 ?>
